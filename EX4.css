@@ -1,0 +1,47 @@
+.container {
+    display: inline-block;
+  }
+  
+  .box {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    border: 2px solid black;
+    display: inline-block;
+  }
+   /* socend five selected
+  .box:nth-child(n+6) {
+    background-color: green;
+  }
+*/
+
+/* the first five selected
+.box:nth-child(-n+5) {
+    background-color: green;
+  }
+  */
+
+
+  /*evry fourth starting from the first
+  .box:nth-child(4n+1) {
+    background-color: green;
+  }
+  */
+
+  /* the last five elemnts
+  .box:nth-last-child(-n+5) {
+    background-color: green;
+  }
+*/
+
+
+/* the second to last elemnnt(not sure if is it right)
+.box:nth-last-child(2) {
+    background-color: green;
+  }
+
+*/
+
+

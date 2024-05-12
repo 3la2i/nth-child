@@ -1,0 +1,21 @@
+.container {
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+}
+
+section div {
+  width: 120px;
+  height: 120px;
+  background-color: green;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+section:nth-child(even) div {
+  background-color:blue;
+}
